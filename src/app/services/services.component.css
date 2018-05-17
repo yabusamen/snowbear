@@ -1,0 +1,49 @@
+/* .wrapper {
+  width: 100px;
+  height: 140px;
+  position: relative;
+  left: 500px;
+}
+
+.wrapper:hover {
+  background-color: #E3E5E5;
+}
+
+p {
+  position: relative;
+  left: 20px;
+  bottom: 20px;
+}
+
+img {
+  position: relative;
+  border-radius: 50%;
+
+  width:100px;
+  height:100px;
+} */
+
+main {
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main div {
+        margin: 0px 60px;
+        text-align: center;
+}
+
+        main div img {
+            width:100px;
+            height: 100px;
+            border-radius: 50%;
+          /* this pushes the title under the image */
+            display: block;
+        }
+
+        main div .title {
+            display: inline-block;
+            margin: 20px;
+        }
